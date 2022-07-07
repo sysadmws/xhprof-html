@@ -46,7 +46,7 @@ $params = array('run'        => array(XHPROF_STRING_PARAM, ''),
                 'run2'       => array(XHPROF_STRING_PARAM, ''),
                 'source'     => array(XHPROF_STRING_PARAM, 'xhprof'),
                 'all'        => array(XHPROF_UINT_PARAM, 0),
-                'dir'        => array(XHPROF_STRING_PARAM, __DIR__),
+                'dir'        => array(XHPROF_STRING_PARAM, __DIR__ . '/xhprof_files'),
                 );
 
 // pull values of these params, and create named globals for each param
